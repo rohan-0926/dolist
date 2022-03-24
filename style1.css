@@ -1,0 +1,80 @@
+body
+{
+    /* border-radius: 50px; */
+background: #d3d7cf;
+/* box-shadow:  5px 5px 32px #545653,
+             -5px -5px 32px #ffffff; */
+}
+#Box{
+    /* width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left:620px; */
+    /* margin-right: 150px; */
+    margin-left: 500px;
+    margin-top: 200px;
+    margin-right: 600px;
+    min-height: 430px;
+    /* margin-bottom: 60px; */
+    /* background-color: red; */
+    border-radius: 20px;
+    background: #d3d7cf;
+    box-shadow:  5px 5px 32px #545653,
+                -5px -5px 32px #ffffff;
+    outline: none;
+}
+#ip{
+    /* display: flex;
+     */
+     margin-left: 30px;
+     margin-top: 20px;
+     border-style: none;
+     width: 300px;
+     min-height: 29px;
+     border-radius: 3px;
+     outline: none;
+     /* background: transparent; */
+}
+#ip:hover{
+    background: rgb(238, 171, 223);
+    outline: none;
+}
+#btn{
+    min-width: 40px;
+    height: 29px;
+    border-style: none;
+    border-radius: 3px;
+    outline: none;
+}
+#btn:hover{
+    background: rgb(187, 238, 129);
+    outline: none;
+}
+#btn1{
+    position:fixed;
+    top: 570px;
+    left:800px;
+    border-style: none;
+    width:90px ;
+    border-radius: 3px;
+    /* position: fixed; */
+    outline: none;
+}
+#btn1:hover{
+    background: rgb(240, 167, 161);
+    outline: none;
+}
+/* @media only screen and (min-width: 998px) {
+    /* //CSS for for laptops / small screen desktops column */
+
+    /* width: 100px;
+  } */ 
+@viewport{
+    zoom:1.0;
+    width: extend-to-zoom;
+}
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
